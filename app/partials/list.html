@@ -1,0 +1,43 @@
+<!-- tabela z filmami -->
+<div>
+
+	<table id="tabelka">
+		<tr>
+			<th>Tytuł filmu</th>
+			<th>Reżyser</th>
+			<th>Opis</th>
+			<th>Data stworzenia</th>
+			<th>Akcje</th>
+		</tr>
+		<tr  ng-repeat="movie in movies">
+			<td>{{ movie.title }}</td>
+			<td>{{ movie.director }}</td>
+			<td>{{ movie.desc }}</td>
+			<td>{{ movie.createDate }}</td>
+			<td><a href="#/movies/{{movie.title}}">Edytuj</a></td>
+		</tr>
+	</table>
+	
+<!-- poniżej formularz do doawania filmów -->
+	<h2>Dodaj swój film</h2>
+	
+<div id="formularz">
+	<div>
+		<input type="text" ng-model="newMovie.title" placeholder="Tytuł filmu" /> 
+	</div>
+	<div>
+		<input type="text" ng-model="newMovie.director" placeholder="Reżyser" />
+	</div>
+	<div>
+		<input type="text" ng-model="newMovie.createDate" placeholder="Data stworzenia" />
+	</div>
+	<div>
+		<textarea ng-model="newMovie.desc" placeholder="Opis"></textarea>
+	</div>
+	<div>
+		<button ng-click="addMovie()">Dodaj</button>
+		<button ng-click="clear()">Czyść</button>
+	</div>
+</div>	
+	
+</div>

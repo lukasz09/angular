@@ -1,0 +1,19 @@
+<!-- formularz do edycji danych -->
+<div id="formularz">
+ 	<div>
+		<input type="text" ng-model="movie.title" placeholder="Tytuł" /> 
+	</div>
+	<div>
+		<input type="text" ng-model="movie.director" placeholder="Reżyser" />
+	</div>
+	<div>
+		<input type="text" ng-model="movie.createDate" placeholder="Data stworzenia" />
+	</div>
+	<div>
+		<textarea ng-model="movie.desc" placeholder="Opis"></textarea>
+	</div>
+	<div>
+		<button ng-click="cancel()">Anuluj</button>
+		<button ng-click="saveMovie()">Edytuj</button>
+	</div>
+</div>

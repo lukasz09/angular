@@ -1,0 +1,46 @@
+body{padding:0;margin:0;}
+a{text-decoration:none;}
+a:hover{color:red;}
+h1{text-align: center;}
+#strona{margin:0 auto;width:900px;}
+/*tabelka*/
+#tabelka{background: #99CCFF;border:none;border-radius:5px;}
+#tabelka  tr:nth-child(2n+2){
+	background:#fff;
+}
+#tabelka  tr:nth-child(2n+1){
+	background:#EFEDED;
+}
+#tabelka tr th{
+	background:#CCFFFF;	
+	
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #000000;
+	
+	border-right-width: thin;
+	border-right-style: none;
+	border-right-color: #000000;
+	
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	
+	border-left-width: thin;
+	border-left-style: none;
+	border-left-color: #000000;	
+	
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #6666FF;
+}
+#tabelka tr td{
+	text-align: center;
+	padding:5px;
+}
+/*formularz lista*/
+#formularz input, #formularz textarea{background:#9CF;color:#000;border:1px solid #000;}
+#formularz input:hover, #formularz textarea:hover{background:#ccccff;color:#000 ;border:1px solid #99ffff;}
+#formularz button{color:red;margin:10px;padding:5px;border:1px solid red;border-radius:5px;cursor:pointer;}
+#formularz button:hover{color:#000;background: #9CF;}

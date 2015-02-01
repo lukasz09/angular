@@ -1,0 +1,6 @@
+[
+     { "title": "Blackhat", "desc": "sensacjiny", "director": "Michael Mann", "createDate": "2000.01.01"},
+	 { "title": "Pia", "desc": "horor", "director": "James Wan", "createDate": "2004.01.21"},
+	 { "title": "Noc w muzeum ", "desc": "komedia", "director": " Shawn Levy", "createDate": "2006.01.21"},
+	 { "title": "Titanic", "desc": "dramat", "director": "James Cameron", "createDate": "2000.03.12"}
+ ]

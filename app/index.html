@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="moviesApp">
+<head>
+	    <meta charset="utf-8">
+	    <title>Movies AngularApp</title>
+	    <script src="../bower_components/js/angular.min.js"></script>
+	    <script src="../bower_components/js/angular-route.min.js"></script>
+	    <script src="../bower_components/js/angular-resource.min.js"></script>
+	    <script src="js/app.js"></script>
+	    <script src="js/controllers.js"></script>
+	    <script src="js/services.js"></script>
+	    <script src="js/factiories.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="strona">
+	
+		<h1>Temat Biu-ćwiczenia:Filmy</h1>
+		<!-- 
+		NG VIEW, czyli w tym miejscu Angular będzie umieszczał aktualnie używany fragment strony.
+		Fragmenty stron znajdują się w katalogu 'partials'.
+		Decyzja o tym jaki fragment aktualnie używamy, znajduje się w pliku js/app.js 
+		-->
+	    <div ng-view></div>
+	</div>
+</body>
+</html>
